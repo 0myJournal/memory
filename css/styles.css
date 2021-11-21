@@ -1,0 +1,161 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+.holder{
+    background-color:lightcoral;
+}
+.back{
+  background-size: 100% 100%;
+  background-color:aqua;
+
+}
+.turns{
+  border-style: solid;
+  background-color: gold;
+}
+.hoo1{
+
+    font-size: 100px;
+    text-align: right;
+    color: white;
+}
+.textbox{
+
+    position: relative;
+    left: 10px;
+    background-color: darkgreen;
+}
+.right menu{
+  
+    color: black;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+  }
+.containeradmin{
+    text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #51ff57;
+}
+.gbwinner{
+  text-align: center; border-radius: 50%;border: 1px solid #780800; margin: 0px; background:yellow; color:black;
+}
+.gbp2{
+  text-align: center; border-radius: 50%;border: 1px solid #780800; margin: 0px; background:blue; color:white;
+}
+.gbp1{
+  text-align: center; border-radius: 50%;border: 1px solid #780800; margin: 0px; background:red; color:white;
+}
+.button{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+  .coin{
+      padding: 16px;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+.centeroo{
+  text-align: center;
+}
+.centerooRed{
+  text-align: center;
+  color:white;
+}
+.divred{
+  border:1px solid darkred;
+  height: 70px; width: 200px; padding: 5px; margin-top: 50px; float: left; font-size:18px; background:red;
+
+}
+.gameboard{
+  border-radius: 10%; border:1px solid black;
+  height: 500px; width: 350px; padding: 5px; margin: 5px; float: left; font-size:18px; background:black;
+}
+.imageboard{
+  border-radius: 10%; border:1px solid black;
+  height: 200px; width: 300px; padding: 5px; margin: 5px; float: left; font-size:18px; background:black;
+}
+.invis{
+  border:none;
+  opacity: 0;
+}
+.startgame{
+  width:200px;
+  height:100px;
+  z-index: 0;
+  background-color: yellow;
+}
+.startgame:hover{
+  background-color: gold;
+}
+.divred:hover{
+  background-color: darkred;
+}
+.divblue{
+  border:1px solid darkblue;
+        height: 70px; width: 200px; padding: 5px; margin-top: 50px; float: left; font-size:18px; background:blue;
+}
+.divblue:hover{
+  background-color: darkblue;
+}
+.undertitle{
+  color:white; 
+  font-size: 20px;
+  text-align: center;
+  opacity:20%;
+}
+.title{
+  color:white; 
+  font-size: 50px;
+  text-align: center;
+}
+.tp1{
+  text-align: center;
+}
+.tp2{
+  text-align: right;
+}
